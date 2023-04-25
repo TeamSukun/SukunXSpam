@@ -143,8 +143,8 @@ async def spam(e):
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
         elif e.reply_to_msg_id and smex.media:
-            counter = int(Deadlysexy[0])
-            sleeptime = float(Deadly[0])
+            counter = int(Sukunsexy[0])
+            sleeptime = float(Sukun[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
